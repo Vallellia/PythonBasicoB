@@ -31,3 +31,9 @@ if (edad >= 18):
     print("si puedo entrar a el bar!")
 else: 
     print("no puedo entrar a el bar!")
+mi_numero = int(input("cual es el numero que deseas verifcar: "))
+print(f"El numero que deseas verificar es {mi_numero}")
+if mi_numero % 2 == 0:
+    print(f"El numero {mi_numero} es par!!!")
+else:
+    print(f"el numero {mi_numero} es impar!!!")
