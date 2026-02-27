@@ -6,8 +6,8 @@ zombie = Zombie(10, 1)
 Ogro = ogro(20, 3)
 
 def batalla(e1: Enemigo, e2: Enemigo):
-    e1. habla()
-    e2. habla()
+    e1.habla()
+    e2.habla()
 
     while e1.punto_energia > 0 and e2. punto_energia > 0:
         print("*******************")
@@ -29,7 +29,7 @@ def batalla(e1: Enemigo, e2: Enemigo):
 
 print("==============BATALLA==============")
 
-batalla(zombie, ogro)
+batalla(Zombie, Ogro)
 
 print("=========FIN DE LA BATALLA=========")
 
