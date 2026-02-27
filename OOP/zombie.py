@@ -12,9 +12,9 @@ class Zombie(Enemigo):
     def propagar_enfermedad(self):
         print("El xombie esta tratando de propagar la enfermedad!!")
 
-def ataque_especial(self):
-    print("ogro ataque especial")
-    funciona_ataque_especial = random.random() < 0.50
-    if funciona_ataque_especial:
-        self.ataque += 2
-        print("zombie ha regenerado su energia con 2HP!!!!")
+    def ataque_especial(self):
+        print("ogro ataque especial")
+        funciona_ataque_especial = random.random() < 0.50
+        if funciona_ataque_especial:
+            self.ataque += 2
+            print("zombie ha regenerado su energia con 2HP!!!!")
